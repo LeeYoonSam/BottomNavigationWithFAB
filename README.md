@@ -71,3 +71,14 @@ implementation 'com.google.android.material:material:1.6.0-alpha03'
 - background: FloatingActionButton 에 디자인 적용해놓은것이 보이지 않으므로 배경을 투명으로 처리
 - marginEnd: 무슨 이유인지는 모르겠으나 왼쪽 여백이 생긴 상태로 생성 되므로 오른쪽 영역에 16dp 를 주어서 네비게이션뷰가 가운데 위치하도록 처리
 
+## 5. 네비게이션 배경 제거
+BottomNavigationView 에 그림자가 생겨 이상하게 보이는데 xml 상에서는 수정이 불가능 하므로 Ativity 에서 코드로 처리
+
+```kotlin
+binding.bottomNavigationView.background = null
+```
+
+- xml 미리보기에서는 그림자가 아직도 제거 되지 않아 보이지만 실행시키면 그림자 제거되어 있습니다.
+
+
+
