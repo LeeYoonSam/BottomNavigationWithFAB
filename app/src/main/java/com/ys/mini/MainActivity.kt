@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
 		setContentView(binding.root)
 
 		binding.bottomNavigationView.background = null
+		binding.bottomNavigationView.menu.getItem(2).isEnabled = false
 	}
 }

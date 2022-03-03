@@ -9,6 +9,9 @@
         android:title="@string/menu_search"
         android:icon="@drawable/ic_search"/>
 
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+
     <item android:id="@+id/miProfile"
         android:title="@string/menu_profile"
         android:icon="@drawable/ic_person"/>

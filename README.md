@@ -80,5 +80,15 @@ binding.bottomNavigationView.background = null
 
 - xml 미리보기에서는 그림자가 아직도 제거 되지 않아 보이지만 실행시키면 그림자 제거되어 있습니다.
 
+## 6. 가운데 간격을 맞추기 위해 placeholder 메뉴를 하나더 추가시키고 보이지 않고 인터렉션 불가능하게 처리
 
+```
+<item android:id="@+id/placeholder"
+    android:title=""/>
+```
+- bottom_nav_menu 에서 placeholder 아이템 하나 추가
 
+```kotlin
+binding.bottomNavigationView.menu.getItem(2).isEnabled = false
+```
+- bottomNavigationView 에서 메뉴 아이템을 가져와서 활성 상태를 false 로 처리해서 눌러지지 않도록 처리 
