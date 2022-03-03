@@ -92,3 +92,7 @@ binding.bottomNavigationView.background = null
 binding.bottomNavigationView.menu.getItem(2).isEnabled = false
 ```
 - bottomNavigationView 에서 메뉴 아이템을 가져와서 활성 상태를 false 로 처리해서 눌러지지 않도록 처리 
+
+
+## 참고
+[How to Add a Floating Action Button to a Bottom Navigation - Android Studio Tutorial](https://www.youtube.com/watch?v=x6-_va1R788&list=PLQkwcJG4YTCSSow0ulsj-kIc6drYG_D0E&index=2)
