@@ -9,8 +9,8 @@ implementation 'com.google.android.material:material:1.6.0-alpha03'
 ```
 
 ### 참고
-[Getting started with Material Components for Android - Github](https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md)
-[Getting started with Material Components for Android - MATERIAL DESIGN](https://material.io/develop/android/docs/getting-started)
+- [Getting started with Material Components for Android - Github](https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md)
+- [Getting started with Material Components for Android - MATERIAL DESIGN](https://material.io/develop/android/docs/getting-started)
 
 ## 2.Resource icon 추가
 - Resource Manager > Vector Asset > Clip Art > 필요한 이미지 찾아서 이름 지정
